@@ -1,0 +1,39 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Star2</Id>
+            <Name>Star2</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAULaZGp2J7UW6w540DmFSowAAAAAMAAAAUwB0AGEAcgAyAAAAEGYAAAABAAAgAAAAahwXonx0YdOmZUpdk41nRmxQtNIEdpm/VwgI1C8kmwoAAAAADoAAAAACAAAgAAAApIo0mAt4OSguLNXUk8QastIbVTqKeHpHNXNNH4QJTzUQAAAAzAdcYMzsgFLKc5YU5EkmrUAAAABkhTUN6G0n5Iph+S++hF73mD0q76uPclFskyK9Tb4vbasQl0QRyGaSFidC5qrjN+oXsGiG/9k8epoNnYgrQIO2</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>SQLServer Ventas</Id>
+            <Name>SQLServer Ventas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgwLd26QHkUeeVgZqn6zHewAAAAAiAAAAUwBRAEwAUwBlAHIAdgBlAHIAIABWAGUAbgB0AGEAcwAAABBmAAAAAQAAIAAAAC91JBqo3p1/ltZ4j5YLSJxAdKGgDrO7IddUPSeylV07AAAAAA6AAAAAAgAAIAAAAEO/RHr6HQbL06C5Ji5TsPpr5x/x4IfpfTwlLM6wMomREAAAACfIJl2NI6QSa7S+Vyp3usxAAAAAOCwiF63gLI5XYW4fNye7owR8IbFohjOGrPSzN0H527guF4CRdZ5mkjUALhKdz+M6uY3zv1VeUiB7xQyeXmfCGg==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Star2</Id>
+            <Name>Star2</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAULaZGp2J7UW6w540DmFSowAAAAAMAAAAUwB0AGEAcgAyAAAAEGYAAAABAAAgAAAAdFvhpjjIHXtzjbjwR57hJBJjusz2FN8AD9YxhgPsi4YAAAAADoAAAAACAAAgAAAAdZm1w4JhCV8AQEW4O2d6jZXJWRUd7QkswGOXQIHDFxQgAAAALEqjYNbJ0wERmqlHHEJipnLL6mKxWIKD+7bnJ1qQzX9AAAAARewOz6lWQX2eqEkdthDS9f7dFiWJmqvXI3s2lhWPHuUzhzhKrlfWW9NPLufZDxamoUzA/CbUCd7zGB0z8PGg0Q==</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>SQLServer Ventas</Id>
+            <Name>SQLServer Ventas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAgwLd26QHkUeeVgZqn6zHewAAAAAiAAAAUwBRAEwAUwBlAHIAdgBlAHIAIABWAGUAbgB0AGEAcwAAABBmAAAAAQAAIAAAAGSPKlqGWtU2FMfhnq+NwoKYrb4jlXehJmNccrbdb5g2AAAAAA6AAAAAAgAAIAAAAPyu7h+Fuc804kV6D+Cqy1XRSKB/il1y8eLGpvARz0iZIAAAAMqUP5i7pA6oLP3puAL+yFi577hoahXkHBVUc7QZquPUQAAAAOc/LEkVimai2/b8Il1FyhUsTsPNOssTNYEMV2MnY4hUacWhXGwZx2oMZXcKFTOaZcr+uWUpqo0q+BymE3Zv1Ko=</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>star2</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

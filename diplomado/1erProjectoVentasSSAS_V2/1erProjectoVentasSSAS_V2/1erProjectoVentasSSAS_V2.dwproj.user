@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Star2.DS</Id>
+            <Name>Star2.DS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEsbDP/x2EkmtUeZnrvj7rgAAAAASAAAAUwB0AGEAcgAyAC4ARABTAAAAEGYAAAABAAAgAAAA2k+dSgb78szi7b6sBc0ESl6pnl/ks7oMbp2d/Lb+s7UAAAAADoAAAAACAAAgAAAATP4QLCGHRPOSCfhqIb30BxCjrVhTABheRyh0NqJmbRQQAAAAQ/k8jv8XcgQKIYYDEfCt5kAAAABY9wNx1gFVhFFIY8WjwyGHfHM2zIIot9znXxeFo9wiWSJw4HEl+QN5+1Nmu6h9h4KwD6hSvJ7cm+KV8pLd9A/G</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Star2.DS</Id>
+            <Name>Star2.DS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEsbDP/x2EkmtUeZnrvj7rgAAAAASAAAAUwB0AGEAcgAyAC4ARABTAAAAEGYAAAABAAAgAAAAtgwmdf+xE2F0JHDHGVjYnpod3ck+/hwtQYyXc6/iCE8AAAAADoAAAAACAAAgAAAAMS92F16frcEpHnxZDk5ZHViohwLO6IkfXRrpRGKZhY0gAAAAHvR/nZcSQvvZsHh0dYpea0lrlO3bjVCTEesrBMXTgz9AAAAAHPo4TM17usGt1QZBsPizZEh3zyMMl3wp8JzjKaAB5bYsDV8jpTZOK9tSL1ismlf8LQ2+CK+R2krK+ouUNe7Kxg==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>1erProjectoVentasSSAS_V2</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

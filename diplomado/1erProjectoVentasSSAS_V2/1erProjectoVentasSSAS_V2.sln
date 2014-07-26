@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "1erProjectoVentasSSAS_V2", "1erProjectoVentasSSAS_V2\1erProjectoVentasSSAS_V2.dwproj", "{F16A2548-4DFA-4972-A0FB-552B0D8A719B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F16A2548-4DFA-4972-A0FB-552B0D8A719B}.Development|Default.ActiveCfg = Development
+		{F16A2548-4DFA-4972-A0FB-552B0D8A719B}.Development|Default.Build.0 = Development
+		{F16A2548-4DFA-4972-A0FB-552B0D8A719B}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

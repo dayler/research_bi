@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>DS.Ventas</Id>
+            <Name>DS.Ventas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEsbDP/x2EkmtUeZnrvj7rgAAAAAUAAAARABTAC4AVgBlAG4AdABhAHMAAAAQZgAAAAEAACAAAAC3bIQ5JD6cTHlBak9oLojufKKnDQ/tKwsOUIEAaWyQtwAAAAAOgAAAAAIAACAAAADxXoxHyjSoDOMjVttwYUhAgHISRV6vwS7qUSnqdkBMPRAAAAAG+ZUYbdxU+/4l+b2lFdejQAAAAABw3GKVgX7uHfdhBimaJDP1N31P2cJRU1yDm7qhty4Do4Et/NfRaEbKVrPqasRgrDskooOWfjYgSU+WJzeneYo=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>DS.Ventas</Id>
+            <Name>DS.Ventas</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEsbDP/x2EkmtUeZnrvj7rgAAAAAUAAAARABTAC4AVgBlAG4AdABhAHMAAAAQZgAAAAEAACAAAADQxaJd8eACLix88JNT8CNxNxmNnx1jJOStGVCprmG/ugAAAAAOgAAAAAIAACAAAAAEebbdPKAQWlKhr4CXUQYe7Yjfpcp1r9+HRVZKMQrwnBAAAABxnomRfPO9joebayabJww9QAAAAEEucMMfr2oHQdVJtZaSEeVbOAyJUH0PWe5ydH1G8Obt7TWuewOrHViFqaoyqDfvpIcqdz8TTTOiawMyiVXh/xs=</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>FacturacionSSAS</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

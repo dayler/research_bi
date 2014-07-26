@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a1e7b3ef-7f4a-4993-abe7-e85ce39f3b6c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Star2DSV_cube</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>FACT VENTA</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="6da06a88-c73e-44cc-ae4f-82d843695220">
+          <ID>FACT VENTA</ID>
+          <Name>FACT VENTA</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c734e014-a91c-4b63-884c-9870cd577cb5">
+            <DataSourceViewID>Star2DSV</DataSourceViewID>
+            <TableID>STAR2_FACT_VENTA</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DIM CLIENTE 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="69087c12-fe93-4ad2-b84b-0e422429e727">
+          <ID>DIM CLIENTE</ID>
+          <Name>DIM CLIENTE</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bdef7d58-b6d4-4198-affc-96ddf323e9a8">
+            <DataSourceViewID>Star2DSV</DataSourceViewID>
+            <TableID>STAR2_DIM_CLIENTE</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
