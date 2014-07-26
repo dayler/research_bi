@@ -82,35 +82,11 @@
               </Attributes>
               <Position x="166" y="20" />
             </Shape>
-            <Shape Id="DIA SEMANA" Expanded="false">
-              <Attributes>
-                <Attribute Id="DIA SEMANA" />
-              </Attributes>
-              <Position x="312" y="20" />
-            </Shape>
-            <Shape Id="QUINCENA MES" Expanded="false">
-              <Attributes>
-                <Attribute Id="QUINCENA MES" />
-              </Attributes>
-              <Position x="458" y="20" />
-            </Shape>
-            <Shape Id="TRIMESTRE" Expanded="false">
-              <Attributes>
-                <Attribute Id="TRIMESTRE" />
-              </Attributes>
-              <Position x="605" y="20" />
-            </Shape>
-            <Shape Id="SEMESTRE" Expanded="false">
-              <Attributes>
-                <Attribute Id="SEMESTRE" />
-              </Attributes>
-              <Position x="751" y="20" />
-            </Shape>
             <Shape Id="GESTION" Expanded="false">
               <Attributes>
                 <Attribute Id="GESTION" />
               </Attributes>
-              <Position x="897" y="20" />
+              <Position x="312" y="20" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -164,6 +140,28 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c137c4ba-9ed5-402a-9160-637557ba0152">
+          <AttributeID>GESTION</AttributeID>
+          <Name>GESTION</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="60993e8e-eb8c-4899-8c65-3ba7d517cf75">
+      <ID>GESTION</ID>
+      <Name>GESTION</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="effb0a12-155f-46c0-8e35-4485eaeaad1a">
+          <DataType>WChar</DataType>
+          <DataSize>6</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9b86de30-7159-42db-9478-1f2080383a94">
+            <TableID>DWHEX_DIM_TIEMPO</TableID>
+            <ColumnID>GESTION</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -173,6 +171,11 @@
       <ID>Hierarchy</ID>
       <Name>Tiempo</Name>
       <Levels>
+        <Level dwd:design-time-name="5d19f3db-d8ec-4b6d-a5c8-cdc61927e008">
+          <ID>GESTION</ID>
+          <Name>GESTION</Name>
+          <SourceAttributeID>GESTION</SourceAttributeID>
+        </Level>
         <Level dwd:design-time-name="6a80d334-06b9-4f98-909c-ff5f0baef9b4">
           <ID>FECHA</ID>
           <Name>FECHA</Name>

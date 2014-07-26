@@ -227,11 +227,6 @@
       <ID>Hierarchy</ID>
       <Name>Productos</Name>
       <Levels>
-        <Level dwd:design-time-name="03ab95e9-8c7c-42dd-9c5e-22329ed1e3e7">
-          <ID>RUBRO</ID>
-          <Name>RUBRO</Name>
-          <SourceAttributeID>RUBRO</SourceAttributeID>
-        </Level>
         <Level dwd:design-time-name="bb5c31e9-95d0-4b80-a30f-8f7ae0e88e10">
           <ID>PROVEEDOR</ID>
           <Name>PROVEEDOR</Name>

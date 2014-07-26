@@ -206,6 +206,9 @@
         <Attribute dwd:design-time-name="92654f27-be01-45da-9990-586490eeddc1">
           <AttributeID>ZONA</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="ec73a438-78e5-4720-acbd-958e7dae9f84">
+          <AttributeID>CUENTAHABILITADA</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="95aa2ffb-eb1a-4be8-a054-169d8706949a">
@@ -226,6 +229,9 @@
         </Attribute>
         <Attribute dwd:design-time-name="18f257c9-41f4-4a51-a667-21662cfdf9b7">
           <AttributeID>VENDEDOR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f114360f-65fe-4490-b352-620983c5ff59">
+          <AttributeID>COMISION</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
@@ -271,6 +277,9 @@
         </Attribute>
         <Attribute dwd:design-time-name="bc6e94b1-2425-4da5-9183-a1302ad9fa48">
           <AttributeID>FECHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dbee37cb-a63c-4ca8-9d6e-8009ae67787b">
+          <AttributeID>GESTION</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>

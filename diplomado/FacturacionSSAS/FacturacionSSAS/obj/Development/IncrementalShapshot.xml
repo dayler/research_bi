@@ -19,49 +19,49 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>wCQjMDuOGwGGYC7j6QpTs+X9Yso=23/07/2014 22:55:0623/07/2014 22:55:05</TimeStamp>
+        <TimeStamp>wCQjMDuOGwGGYC7j6QpTs+X9Yso=23/07/2014 22:55:0626/07/2014 16:12:11</TimeStamp>
         <ID>
           <String>DS.Ventas</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>Hxg4kkDkuT+arjnUAqm3qx7+SrI=23/07/2014 23:17:0023/07/2014 23:11:37</TimeStamp>
+        <TimeStamp>Hxg4kkDkuT+arjnUAqm3qx7+SrI=23/07/2014 23:17:0026/07/2014 16:12:11</TimeStamp>
         <ID>
           <String>DSVVentas</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Z8SyiGVu+LOXArfolfqx/2+rrJA=25/07/2014 23:55:3323/07/2014 23:32:18</TimeStamp>
+        <TimeStamp>A++fJt+JmZz7CYMBz2Gob2qaC7E=26/07/2014 16:36:0726/07/2014 16:12:11</TimeStamp>
         <ID>
           <String>DIM CLIENTE</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>v+xIyI3YC2yP15/EI9paPLMvoZA=26/07/2014 0:10:1123/07/2014 23:32:18</TimeStamp>
+        <TimeStamp>enuGhPA6dF9+Xfb6CClfim0IiNM=26/07/2014 16:30:5326/07/2014 16:12:11</TimeStamp>
         <ID>
           <String>DIM VENDEDOR</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>zwdGnLgDlGZD/uTUM4EFEorP5Ck=26/07/2014 15:36:2823/07/2014 23:32:18</TimeStamp>
+        <TimeStamp>OkfQo96Q3GmsalSakreomH5PH0o=26/07/2014 16:36:5726/07/2014 16:12:11</TimeStamp>
         <ID>
           <String>DIM PRODUCTO</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>wXJtqhb4Pdw2hGd9/8yIXFIjT3Q=26/07/2014 15:32:2423/07/2014 23:32:18</TimeStamp>
+        <TimeStamp>S0e08ho2x3Nytfmok4/YUSYCDGw=26/07/2014 16:40:4426/07/2014 16:12:11</TimeStamp>
         <ID>
           <String>DIM TIEMPO</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>7uhzhQYA5CuVxbQm+RKpcUOdrvQ=26/07/2014 15:32:2423/07/2014 23:32:18RoKF/z01qQ0i18PxYUut0AzZ9Ao=23/07/2014 23:32:1923/07/2014 23:32:18</TimeStamp>
+        <TimeStamp>C71F8LrSEzSLfkqYrOQLo94BGhg=26/07/2014 16:40:3026/07/2014 16:12:10RoKF/z01qQ0i18PxYUut0AzZ9Ao=23/07/2014 23:32:1926/07/2014 16:12:10</TimeStamp>
         <ID>
           <String>CubeVentas</String>
         </ID>
@@ -69,7 +69,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>dYLg+/+JVlQvzSCASvGR3ek1VFw=23/07/2014 22:32:5423/07/2014 22:32:54</TimeStamp>
+      <TimeStamp>dYLg+/+JVlQvzSCASvGR3ek1VFw=23/07/2014 22:32:5426/07/2014 16:12:11</TimeStamp>
       <ID>
         <String>FacturacionSSAS</String>
       </ID>
@@ -78,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2014-07-26T19:59:25.67Z</LastDeployed>
+  <LastDeployed>2014-07-26T20:44:24.466667Z</LastDeployed>
 </DeploymentSnapshot>

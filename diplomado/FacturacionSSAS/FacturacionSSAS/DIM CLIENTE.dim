@@ -133,6 +133,10 @@
           <AttributeID>ZONA</AttributeID>
           <Name>ZONA</Name>
         </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d867e00d-d73c-412f-a8b9-ef80f5ec7e06">
+          <AttributeID>CUENTAHABILITADA</AttributeID>
+          <Name>CUENTAHABILITADA</Name>
+        </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -185,6 +189,21 @@
           <Source xsi:type="ColumnBinding" dwd:design-time-name="1c68901a-d7c2-4321-b1cd-ca6d1190decd">
             <TableID>DWHEX_DIM_CLIENTE</TableID>
             <ColumnID>ZONA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ede902c6-f8c0-46aa-9f86-45368ead7c76">
+      <ID>CUENTAHABILITADA</ID>
+      <Name>CUENTAHABILITADA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b0dc64ed-cf9a-4c88-8caf-404a59f6adb5">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="82cb2b8e-e951-4fdb-89e4-7109a33dc0ea">
+            <TableID>DWHEX_DIM_CLIENTE</TableID>
+            <ColumnID>CUENTAHABILITADA</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
